@@ -5,6 +5,7 @@ import favicon from '../public/favicon.ico'
 
 
 const Home: NextPage = () => {
+
   return (
     <div className="">
       <Head>
@@ -13,8 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <h1>Minth Blog</h1>
     </div>
+    
   )
 }
 
